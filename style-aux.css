@@ -53,20 +53,20 @@ $BACKGROUNDS
 ----------------------------
 */
 .img-bg {
-    background: url("images-aux/bg-aux.png") no-repeat;
+    background: url("images-aatur/bg-aux.png") no-repeat;
     background-size: cover;
 }
 .img-bg-wide {
-    background: url("images-aux/bg-aux-wide.png") no-repeat;
+    background: url("images-aatur/bg-aux-wide.png") no-repeat;
     background-size: cover;
 }
 .img-bg-wide-top {
-    background: url("images-aux/aux-top-bg.png") no-repeat;
+    background: url("images-aatur/aux-top-bg.png") no-repeat;
     background-size: cover;
 }
 .img-bg-top-and-bottom-yellow {
     background-color: var(--brightYellow);
-    background-image: url("images-aux/box-top-bg.png"), url("images-aux/box-bottom-bg.png");
+    background-image: url("images-aatur/box-top-bg.png"), url("images-aatur/box-bottom-bg.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
@@ -74,14 +74,14 @@ $BACKGROUNDS
 
 .img-bg-top-and-bottom-white {
     background-color: white;
-    background-image: url("images-aux/box-bottom-bg-white.png"), url("images-aux/box-bottom-bg.png");
+    background-image: url("images-aatur/box-bottom-bg-white.png"), url("images-aatur/box-bottom-bg.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
 }
 
 .invite-bg {
-    background-image: url("images-aux/invite-bg-top.png"), url("images-aux/invite-bg-bottom.png");
+    background-image: url("images-aatur/invite-bg-top.png"), url("images-aatur/invite-bg-bottom.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;

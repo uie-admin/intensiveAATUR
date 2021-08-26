@@ -57,7 +57,7 @@ $BACKGROUNDS
 ----------------------------
 */
 .img-bg {
-    background: url("images-aatur/bg-aux.png") no-repeat;
+    background: url("images-aatur/bg-horse-1000.png") no-repeat;
     background-size: cover;
 }
 .img-bg-wide {
@@ -186,7 +186,7 @@ $BACKGROUNDS
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ffffff !important;
     border-radius: 0;
-    background-color: var(--black);
+    background-color: var(--darkPurple);
     text-decoration: none;
     transition: background-color 0.24s ease;
     display: block;
@@ -877,11 +877,11 @@ $BACKGROUNDS
 
 
 @media(max-device-width: 800px) {
-    .img-bg {
+    /* .img-bg {
         background-color: #FFCD5E !important;
         background: none;
         background-size: cover;
-    }
+    } */
 
     .lead-wraper {
         padding-top: 30px;

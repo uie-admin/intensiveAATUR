@@ -53,7 +53,7 @@ a:hover {
 }
 
 .footer-notice a {
-    color: #ffffff !important;
+    color: var(--lightgrey) !important;
 }
 /*
 ----------------------------
@@ -238,9 +238,9 @@ $BACKGROUNDS
 .cta-c {
     /* flex: 1; */
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: var(--darkPurple) !important;
+    color: var(--brightOrange) !important;
     border-radius: 0;
-    background-color: var(--newWhite);
+    background-color: transparent;
     text-decoration: none;
     transition: background-color 0.24s ease;
     display: block;
@@ -249,19 +249,20 @@ $BACKGROUNDS
     font-size: 1em;
     text-transform: uppercase;
     text-align: center;
-    padding: 0.8em 2em;
+    padding: 0.6em 2em;
     max-width: 200px;
     letter-spacing: 1px;
+    border: 2px solid var(--brightOrange);
 }
 
 .cta-c:hover {
     color: var(--newWhite) !important;
-    background-color: var(--brightPurple);
+    background-color: var(--darkOrange);
 }
 
 .text-wall .h3 {
     font-family: 'Crimson Text', serif;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     text-shadow: 1px 1px 0 transparent, 3px 3px 0 #ffffff, 3px 3px 0 #ffffff;
     text-align: center;
@@ -466,7 +467,7 @@ $BACKGROUNDS
 }
 
 .quotedArticleRight .sec-desc {
-    grid-column: 2 / 25;
+    grid-column: 3 / 24;
 }
 
 
@@ -811,8 +812,8 @@ $BACKGROUNDS
 }
 .text-wall .h3 {
     font-family:  'Crimson Text', serif;
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 700;
     text-shadow: none;
     text-align: center;
     display: block;

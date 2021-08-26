@@ -51,6 +51,10 @@ a:hover {
 :root{
     --newWhite: #eee7e7;
 }
+
+.footer-notice a {
+    color: #ffffff !important;
+}
 /*
 ----------------------------
 $BACKGROUNDS
@@ -256,8 +260,8 @@ $BACKGROUNDS
 }
 
 .text-wall .h3 {
-    font-family: league-gothic, sans-serif;
-    font-size: 45px;
+    font-family: 'Crimson Text', serif;
+    font-size: 32px;
     font-weight: 700;
     text-shadow: 1px 1px 0 transparent, 3px 3px 0 #ffffff, 3px 3px 0 #ffffff;
     text-align: center;
@@ -395,7 +399,7 @@ $BACKGROUNDS
 }
 
 .quotedArticleLeft .sec-il img {
-    padding-top: 132px;
+    padding-top: 32px;
 }
 
 
@@ -410,7 +414,7 @@ $BACKGROUNDS
     }
 
     .quotedArticleLeft .sec-il img {
-        padding-top: 132px;
+        padding-top: 32px;
     }
 }
 
@@ -462,7 +466,7 @@ $BACKGROUNDS
 }
 
 .quotedArticleRight .sec-desc {
-    grid-column: 13 / 25;
+    grid-column: 2 / 25;
 }
 
 
@@ -769,14 +773,14 @@ $BACKGROUNDS
 
 /* Updates June 18 2021, ASAP*/
 .sec-il img {
-    max-width: 200px;
+    max-width: 250px;
 }
 #how-the-take .sec-desc {
-    grid-column: 3 / 13;
+    grid-column: 3 / 17;
 }
 
 #how-the-take .sec-il {
-    grid-column: 15 / 26;
+    grid-column: 19 / 26;
 }
 
 .introStatementsB .sec-il {
@@ -806,9 +810,9 @@ $BACKGROUNDS
     background-color: var(--darkPurple);
 }
 .text-wall .h3 {
-    font-family: league-gothic, sans-serif;
-    font-size: 45px;
-    font-weight: 700;
+    font-family:  'Crimson Text', serif;
+    font-size: 32px;
+    font-weight: 600;
     text-shadow: none;
     text-align: center;
     display: block;

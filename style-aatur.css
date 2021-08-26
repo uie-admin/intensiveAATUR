@@ -51,6 +51,10 @@ a:hover {
 :root{
     --newWhite: #eee7e7;
 }
+
+.footer-notice a {
+    color: var(--lightgrey) !important;
+}
 /*
 ----------------------------
 $BACKGROUNDS
@@ -234,9 +238,9 @@ $BACKGROUNDS
 .cta-c {
     /* flex: 1; */
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: var(--darkPurple) !important;
+    color: var(--brightOrange) !important;
     border-radius: 0;
-    background-color: var(--newWhite);
+    background-color: transparent;
     text-decoration: none;
     transition: background-color 0.24s ease;
     display: block;
@@ -245,19 +249,20 @@ $BACKGROUNDS
     font-size: 1em;
     text-transform: uppercase;
     text-align: center;
-    padding: 0.8em 2em;
+    padding: 0.6em 2em;
     max-width: 200px;
     letter-spacing: 1px;
+    border: 2px solid var(--brightOrange);
 }
 
 .cta-c:hover {
     color: var(--newWhite) !important;
-    background-color: var(--brightPurple);
+    background-color: var(--darkOrange);
 }
 
 .text-wall .h3 {
-    font-family: league-gothic, sans-serif;
-    font-size: 45px;
+    font-family: 'Crimson Text', serif;
+    font-size: 28px;
     font-weight: 700;
     text-shadow: 1px 1px 0 transparent, 3px 3px 0 #ffffff, 3px 3px 0 #ffffff;
     text-align: center;
@@ -395,7 +400,7 @@ $BACKGROUNDS
 }
 
 .quotedArticleLeft .sec-il img {
-    padding-top: 132px;
+    padding-top: 32px;
 }
 
 
@@ -410,7 +415,7 @@ $BACKGROUNDS
     }
 
     .quotedArticleLeft .sec-il img {
-        padding-top: 132px;
+        padding-top: 32px;
     }
 }
 
@@ -462,7 +467,7 @@ $BACKGROUNDS
 }
 
 .quotedArticleRight .sec-desc {
-    grid-column: 13 / 25;
+    grid-column: 3 / 24;
 }
 
 
@@ -769,14 +774,14 @@ $BACKGROUNDS
 
 /* Updates June 18 2021, ASAP*/
 .sec-il img {
-    max-width: 200px;
+    max-width: 250px;
 }
 #how-the-take .sec-desc {
-    grid-column: 3 / 13;
+    grid-column: 3 / 17;
 }
 
 #how-the-take .sec-il {
-    grid-column: 15 / 26;
+    grid-column: 19 / 26;
 }
 
 .introStatementsB .sec-il {
@@ -806,8 +811,8 @@ $BACKGROUNDS
     background-color: var(--darkPurple);
 }
 .text-wall .h3 {
-    font-family: league-gothic, sans-serif;
-    font-size: 45px;
+    font-family:  'Crimson Text', serif;
+    font-size: 28px;
     font-weight: 700;
     text-shadow: none;
     text-align: center;

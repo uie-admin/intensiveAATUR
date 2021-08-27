@@ -217,6 +217,11 @@ h3 {
     height: auto;
 }
 
+.chess {
+    max-width: 110% !important;
+    height: auto;
+}
+
 a {
     text-transform: none;
     text-decoration: underline;

@@ -190,7 +190,7 @@ $BACKGROUNDS
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ffffff !important;
     border-radius: 0;
-    background-color: var(--darkPurple);
+    background-color: var(--darkOrange);
     text-decoration: none;
     transition: background-color 0.24s ease;
     display: block;
@@ -238,9 +238,9 @@ $BACKGROUNDS
 .cta-c {
     /* flex: 1; */
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: var(--brightOrange) !important;
+    color: #ffffff !important;
     border-radius: 0;
-    background-color: transparent;
+    background-color: var(--brightOrange);
     text-decoration: none;
     transition: background-color 0.24s ease;
     display: block;
@@ -256,8 +256,8 @@ $BACKGROUNDS
 }
 
 .cta-c:hover {
-    color: var(--newWhite) !important;
-    background-color: var(--darkOrange);
+    color: var(--brightOrange) !important;
+    background-color: #ffffff;
 }
 
 .text-wall .h3 {

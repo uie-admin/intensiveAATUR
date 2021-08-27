@@ -252,12 +252,11 @@ $BACKGROUNDS
     padding: 0.8em 2em;
     max-width: 200px;
     letter-spacing: 1px;
-    border: 2px solid var(--brightOrange);
 }
 
 .cta-c:hover {
     color: var(--brightOrange) !important;
-    background-color: #ffffff;
+    background-color: #eee7e7;
 }
 
 .text-wall .h3 {
@@ -812,12 +811,12 @@ $BACKGROUNDS
 }
 .text-wall .h3 {
     font-family:  'Crimson Text', serif;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 700;
     text-shadow: none;
     text-align: center;
     display: block;
-    color: rgb(238, 231, 231);
+    color: #ffffff;
     line-height: 1;
     max-width: 800px;
     margin: 0 auto;

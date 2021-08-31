@@ -289,6 +289,7 @@ $BACKGROUNDS
 
 .introStatementsA .sec-il img {
     margin-top: 0;
+    max-width: 260px;
 }
 
 .shadow-box {
@@ -909,9 +910,11 @@ $BACKGROUNDS
     }
 
     .text-wall p {
-        margin: 30px 10px;
-        font-size: 40px;
-        font-weight: 600;
+        font-size: 45px;
+    }
+
+    .text-wall .h3 {
+        font-size: 42px;
     }
     .square-svg .container {
         padding: 0;
